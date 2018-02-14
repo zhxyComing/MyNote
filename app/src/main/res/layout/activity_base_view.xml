@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_note_normal" />
+
+    <!--为了给imageView增加渐变效果 增加一层图层-->
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/base_title_cover" />
+</FrameLayout>

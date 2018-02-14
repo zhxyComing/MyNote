@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.app.xz.mynote.function.launch.activity.LaunchActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_launch" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/launch_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="轻.便签"
+            android:textSize="24sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="welcome to y-notes"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_small" />
+    </LinearLayout>
+
+</FrameLayout>

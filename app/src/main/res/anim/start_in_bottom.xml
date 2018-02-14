@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!--Avtivity过渡动画-->
+<set xmlns:Android="http://schemas.android.com/apk/res/android"
+    Android:interpolator="@android:anim/decelerate_interpolator">
+
+    <translate
+        Android:duration="600"
+        Android:fromYDelta="2000"
+        Android:toYDelta="0" />
+
+</set>
